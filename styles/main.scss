@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.colors {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 5px;
+	grid-template-rows: repeat(7,50px);
+	grid-template-columns: repeat(auto-fill, 100px);
+}
+
+.color {
+	width: 100px;
+	height: 50px;
+	background-color: white;
+	color: rgba(black,0.5);
+	text-align: center;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	box-shadow: 0 0 0 1px rgba(black,0.05) inset;
+}
+
+$dye : (
+	'205-03': #968d16,
+	'205-05': #ebe823,
+	'205-08': #e9eb86,
+	'205-09': #f0da9e,
+	'205-12': #fffde9,
+
+	'201-03': #928c3b,
+	'201-05': #ebd84b,
+	'201-07': #f4e34f,
+	'201-08': #fff685,
+
+	'202-03': #857333,
+	'202-05': #e29843,
+	'202-07': #f2c576,
+	'202-09': #f0da9e,
+	'202-12': #fffbd6,
+);
+
+@each $n, $c in $dye {
+	.dye-#{$n} {
+		background-color: $c;
+	}
+}
