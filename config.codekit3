@@ -16,6 +16,23 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/Rembrandt-soft-pastels-ENG.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Rembrandt-soft-pastels-ENG.pdf",
+		"oF": 0
+		},
+	"/styles/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/styles/main.scss": {
 		"aP": 0,
 		"bl": 0,
