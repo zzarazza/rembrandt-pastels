@@ -1,3 +1,11 @@
+body {
+  padding: 24px; }
+
+.wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 24px; }
+
 .colors {
   display: grid;
   grid-auto-flow: column;
@@ -269,3 +277,255 @@
 
 .dye-508-08 {
   background-color: #3899ca; }
+
+.dye-570-03 {
+  background-color: #005b7f; }
+
+.dye-570-05 {
+  background-color: #018cc7; }
+
+.dye-570-07 {
+  background-color: #54b7df; }
+
+.dye-570-09 {
+  background-color: #acdfef; }
+
+.dye-522-02 {
+  background-color: #0e5268; }
+
+.dye-522-03 {
+  background-color: #01656d; }
+
+.dye-522-05 {
+  background-color: #0091a6; }
+
+.dye-522-08 {
+  background-color: #2caeb0; }
+
+.dye-522-10 {
+  background-color: #addee4; }
+
+.dye-640-02 {
+  background-color: #083742; }
+
+.dye-640-03 {
+  background-color: #005959; }
+
+.dye-640-05 {
+  background-color: #00807a; }
+
+.dye-640-07 {
+  background-color: #178B86; }
+
+.dye-640-09 {
+  background-color: #5ac4bd; }
+
+.dye-627-02 {
+  background-color: #073937; }
+
+.dye-627-03 {
+  background-color: #145a43; }
+
+.dye-627-05 {
+  background-color: #2c7058; }
+
+.dye-627-07 {
+  background-color: #006c45; }
+
+.dye-627-08 {
+  background-color: #3e9d7b; }
+
+.dye-627-09 {
+  background-color: #67ab80; }
+
+.dye-627-10 {
+  background-color: #b3d1bb; }
+
+.dye-619-03 {
+  background-color: #019160; }
+
+.dye-619-05 {
+  background-color: #039567; }
+
+.dye-619-07 {
+  background-color: #00a372; }
+
+.dye-619-09 {
+  background-color: #aacea4; }
+
+.dye-675-03 {
+  background-color: #008345; }
+
+.dye-675-05 {
+  background-color: #4faa65; }
+
+.dye-675-08 {
+  background-color: #82c198; }
+
+.dye-618-03 {
+  background-color: #6a7d4e; }
+
+.dye-618-05 {
+  background-color: #73b643; }
+
+.dye-618-08 {
+  background-color: #a0c586; }
+
+.dye-618-09 {
+  background-color: #b5cfa8; }
+
+.dye-626-03 {
+  background-color: #2c5935; }
+
+.dye-626-05 {
+  background-color: #68842c; }
+
+.dye-626-07 {
+  background-color: #839123; }
+
+.dye-626-09 {
+  background-color: #bec857; }
+
+.dye-626-10 {
+  background-color: #dbdfa8; }
+
+.dye-633-03 {
+  background-color: #638a42; }
+
+.dye-633-05 {
+  background-color: #c8d242; }
+
+.dye-633-07 {
+  background-color: #d5ce51; }
+
+.dye-633-09 {
+  background-color: #dcd9a1; }
+
+.dye-620-02 {
+  background-color: #273a25; }
+
+.dye-620-03 {
+  background-color: #514c0c; }
+
+.dye-620-05 {
+  background-color: #626208; }
+
+.dye-620-07 {
+  background-color: #a38d45; }
+
+.dye-620-08 {
+  background-color: #d0c77f; }
+
+.dye-620-10 {
+  background-color: #cdd2a0; }
+
+.dye-227-02 {
+  background-color: #5c523f; }
+
+.dye-227-03 {
+  background-color: #9c7b4c; }
+
+.dye-227-05 {
+  background-color: #d28646; }
+
+.dye-227-07 {
+  background-color: #eecc98; }
+
+.dye-227-09 {
+  background-color: #eeddbf; }
+
+.dye-227-10 {
+  background-color: #fffde9; }
+
+.dye-234-02 {
+  background-color: #554d34; }
+
+.dye-234-03 {
+  background-color: #9c7b4c; }
+
+.dye-234-05 {
+  background-color: #e29c47; }
+
+.dye-234-07 {
+  background-color: #d59455; }
+
+.dye-234-08 {
+  background-color: #daa26c; }
+
+.dye-234-09 {
+  background-color: #ecca9e; }
+
+.dye-234-10 {
+  background-color: #f0cdaf; }
+
+.dye-231-03 {
+  background-color: #a6744f; }
+
+.dye-231-05 {
+  background-color: #cc7b4b; }
+
+.dye-231-07 {
+  background-color: #d89b6c; }
+
+.dye-231-08 {
+  background-color: #dfa67d; }
+
+.dye-231-09 {
+  background-color: #efb37f; }
+
+.dye-231-10 {
+  background-color: #f1c8a8; }
+
+.dye-339-03 {
+  background-color: #654d46; }
+
+.dye-339-05 {
+  background-color: #d6785f; }
+
+.dye-339-07 {
+  background-color: #d89c81; }
+
+.dye-339-08 {
+  background-color: #d8a6a0; }
+
+.dye-339-09 {
+  background-color: #e4bfaf; }
+
+.dye-339-10 {
+  background-color: #fee8e7; }
+
+.dye-408-02 {
+  background-color: #24332f; }
+
+.dye-408-03 {
+  background-color: #483517; }
+
+.dye-408-05 {
+  background-color: #2c331a; }
+
+.dye-408-07 {
+  background-color: #735b39; }
+
+.dye-408-09 {
+  background-color: #ae9574; }
+
+.dye-408-10 {
+  background-color: #b6a897; }
+
+.dye-411-03 {
+  background-color: #6a3d32; }
+
+.dye-411-05 {
+  background-color: #b55140; }
+
+.dye-411-07 {
+  background-color: #c16140; }
+
+.dye-411-08 {
+  background-color: #e78c63; }
+
+.dye-411-09 {
+  background-color: #f2dbc2; }
+
+.dye-411-10 {
+  background-color: #f2dbc2; }
