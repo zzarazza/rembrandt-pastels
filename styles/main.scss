@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+@import "brightness";
+
+
 body {
 	padding: 24px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrap {
@@ -10,12 +14,37 @@ body {
 	padding-bottom: 24px;
 }
 
+h1 {
+	text-align: center;
+}
+
 .colors {
 	display: grid;
 	grid-auto-flow: column;
 	grid-gap: 5px;
-	grid-template-rows: repeat(7,50px);
+	grid-template-rows: auto repeat(7,50px);
 	grid-template-columns: repeat(auto-fill, 100px);
+}
+
+.header {
+	text-align: center;
+	line-height: 1.25;
+
+	h2 {
+		font-size: 12px;
+		margin: 0 0 2px;
+		font-weight: 600;
+
+		strong {
+			display: block;
+		}
+	}
+
+	p {
+		margin: 0;
+		font-size: 15px;
+		font-family: 'Saira Extra Condensed', sans-serif;
+	}
 }
 
 .color {
@@ -24,12 +53,17 @@ body {
 	background-color: white;
 	color: rgba(black,0.5);
 	text-align: center;
-	font-family: Arial,sans-serif;
 	font-size: 13px;
 	box-shadow: 0 0 0 1px rgba(black,0.05) inset;
+
+	h3 {
+		font-weight: 600;
+	}
 }
 
 $dye : (
+	'100-05': #e6e7e9,
+
 	'205-03': #968d16,
 	'205-05': #ebe823,
 	'205-08': #e9eb86,
@@ -231,11 +265,68 @@ $dye : (
 	'411-08': #e78c63,
 	'411-09': #f2dbc2,
 	'411-10': #f2dbc2,
+
+	'343-03': #751e12,
+	'343-05': #862e1b,
+	'343-07': #8f5757,
+	'343-08': #d6948a,
+	'343-09': #e3cecd,
+
+	'347-02': #2e2835,
+	'347-03': #6e2e43,
+	'347-05': #802d40,
+	'347-07': #815262,
+	'347-09': #bfa4b0,
+
+	'538-03': #362033,
+	'538-05': #551f22,
+	'538-07': #825460,
+	'538-08': #94787d,
+	'538-09': #a38488,
+	'538-10': #bfadb5,
+
+	'409-03': #350908,
+	'409-05': #571719,
+	'409-07': #7a513e,
+	'409-08': #a77c70,
+	'409-09': #c3a08d,
+	'409-10': #d7bcab,
+
+	'704-03': #211d14,
+	'704-05': #4c4b46,
+	'704-07': #8b8b81,
+	'704-08': #a8a89d,
+	'704-09': #d0d2cc,
+	'704-10': #f2f2e9,
+
+	'727-03': #0a2d40,
+	'727-05': #294a59,
+	'727-07': #647882,
+	'727-08': #94a2aa,
+	'727-09': #b0c0c9,
+	'727-10': #d8e9f1,
+
+	'707-03': #3f2c35,
+	'707-05': #4c4147,
+	'707-07': #6c696d,
+	'707-08': #939598,
+	'707-09': #bcbdc0,
+	'707-10': #dcdddf,
+
+	'709-03': #2f2c11,
+	'709-05': #3e3b1c,
+	'709-07': #4c4a38,
+	'709-08': #828f96,
+	'709-09': #b2b3b7,
+	'709-10': #c6ced4,
+
+	'700-05': #231f20
 );
 
 @each $n, $c in $dye {
 	.dye-#{$n} {
 		background-color: $c;
+		color: contrasting-color($c);
 	}
 }
 
