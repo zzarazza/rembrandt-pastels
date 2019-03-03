@@ -39,873 +39,1542 @@ h1 {
   text-align: center;
   font-size: 13px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset; }
+  .color.in-set {
+    position: relative; }
+    .color.in-set .set {
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      line-height: 12px;
+      border-radius: 100%;
+      font-size: 7px;
+      right: 5px;
+      cursor: pointer;
+      font-weight: 700; }
+    .color.in-set .royaltalens-site {
+      left: 5px; }
+    .color.in-set .set-90 {
+      bottom: 5px; }
+    .color.in-set .set-60 {
+      top: 5px; }
   .color h3 {
     font-weight: 600; }
 
 .dye-100-05 {
   background-color: #e6e7e9;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-100-05 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e6e7e9; }
 
 .dye-205-03 {
   background-color: #968d16;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-205-03 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #968d16; }
 
 .dye-205-05 {
   background-color: #ebe823;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-205-05 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ebe823; }
 
 .dye-205-08 {
   background-color: #e9eb86;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-205-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e9eb86; }
 
 .dye-205-09 {
   background-color: #f0da9e;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-205-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f0da9e; }
 
 .dye-205-12 {
   background-color: #fffde9;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-205-12 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffde9; }
 
 .dye-201-03 {
   background-color: #928c3b;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-201-03 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #928c3b; }
 
 .dye-201-05 {
   background-color: #ebd84b;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-201-05 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ebd84b; }
 
 .dye-201-07 {
   background-color: #f4e34f;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-201-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f4e34f; }
 
 .dye-201-08 {
   background-color: #fff685;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-201-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff685; }
 
 .dye-202-03 {
   background-color: #857333;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-202-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #857333; }
 
 .dye-202-05 {
   background-color: #e29843;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-202-05 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e29843; }
 
 .dye-202-07 {
   background-color: #f2c576;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-202-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f2c576; }
 
 .dye-202-09 {
   background-color: #f0da9e;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-202-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f0da9e; }
 
 .dye-202-12 {
   background-color: #fffbd6;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-202-12 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffbd6; }
 
 .dye-236-03 {
   background-color: #5a300b;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-236-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #5a300b; }
 
 .dye-236-05 {
   background-color: #eb8c2f;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-236-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #eb8c2f; }
 
 .dye-236-07 {
   background-color: #ec9263;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-236-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ec9263; }
 
 .dye-236-08 {
   background-color: #dfa67d;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-236-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dfa67d; }
 
 .dye-236-09 {
   background-color: #ebbba2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-236-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ebbba2; }
 
 .dye-235-02 {
   background-color: #5d2a29;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-235-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #5d2a29; }
 
 .dye-235-03 {
   background-color: #994623;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-235-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #994623; }
 
 .dye-235-05 {
   background-color: #e1542c;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-235-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #e1542c; }
 
 .dye-235-08 {
   background-color: #e78c63;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-235-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #e78c63; }
 
 .dye-235-09 {
   background-color: #ea8f74;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-235-09 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #ea8f74; }
 
 .dye-370-03 {
   background-color: #952e3b;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-370-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #952e3b; }
 
 .dye-370-05 {
   background-color: #ed462f;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-370-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #ed462f; }
 
 .dye-370-07 {
   background-color: #ed4d52;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-370-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #ed4d52; }
 
 .dye-370-09 {
   background-color: #f5b3a2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-370-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f5b3a2; }
 
 .dye-372-02 {
   background-color: #53242d;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-372-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #53242d; }
 
 .dye-372-03 {
   background-color: #73323d;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-372-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #73323d; }
 
 .dye-372-05 {
   background-color: #d93f2a;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-372-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #d93f2a; }
 
 .dye-372-08 {
   background-color: #e1ada2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-372-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e1ada2; }
 
 .dye-372-09 {
   background-color: #eca7a5;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-372-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eca7a5; }
 
 .dye-372-10 {
   background-color: #f2e6d8;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-372-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f2e6d8; }
 
 .dye-371-03 {
   background-color: #751e1e;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-371-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #751e1e; }
 
 .dye-371-05 {
   background-color: #cc3c38;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-371-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #cc3c38; }
 
 .dye-371-07 {
   background-color: #c75068;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-371-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #c75068; }
 
 .dye-371-08 {
   background-color: #dc9fa5;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-371-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dc9fa5; }
 
 .dye-371-09 {
   background-color: #e0c1ca;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-371-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e0c1ca; }
 
 .dye-318-03 {
   background-color: #9c3c40;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-318-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #9c3c40; }
 
 .dye-318-05 {
   background-color: #d94256;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-318-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #d94256; }
 
 .dye-318-07 {
   background-color: #e55477;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-318-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #e55477; }
 
 .dye-318-08 {
   background-color: #e87f87;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-318-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #e87f87; }
 
 .dye-318-09 {
   background-color: #e495b9;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-318-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e495b9; }
 
 .dye-331-03 {
   background-color: #902b4a;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-331-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #902b4a; }
 
 .dye-331-05 {
   background-color: #b53430;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-331-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #b53430; }
 
 .dye-331-07 {
   background-color: #cd636e;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-331-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #cd636e; }
 
 .dye-331-08 {
   background-color: #d2a0a1;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-331-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d2a0a1; }
 
 .dye-331-09 {
   background-color: #e1bcc2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-331-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e1bcc2; }
 
 .dye-397-03 {
   background-color: #a73563;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-397-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #a73563; }
 
 .dye-397-05 {
   background-color: #d74886;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-397-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #d74886; }
 
 .dye-397-07 {
   background-color: #e1ada2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-397-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e1ada2; }
 
 .dye-397-09 {
   background-color: #dea1c3;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-397-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dea1c3; }
 
 .dye-397-10 {
   background-color: #dfbed4;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-397-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dfbed4; }
 
 .dye-545-02 {
   background-color: #492951;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-545-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #492951; }
 
 .dye-545-03 {
   background-color: #87327e;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-545-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #87327e; }
 
 .dye-545-05 {
   background-color: #ab3f96;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-545-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #ab3f96; }
 
 .dye-545-07 {
   background-color: #d06caa;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-545-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #d06caa; }
 
 .dye-545-08 {
   background-color: #eab4d2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-545-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eab4d2; }
 
 .dye-536-02 {
   background-color: #2c2a57;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-536-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2c2a57; }
 
 .dye-536-03 {
   background-color: #493268;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-536-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #493268; }
 
 .dye-536-05 {
   background-color: #623e99;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-536-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #623e99; }
 
 .dye-536-07 {
   background-color: #8c62a3;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-536-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #8c62a3; }
 
 .dye-536-09 {
   background-color: #c8b2cd;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-536-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c8b2cd; }
 
 .dye-548-02 {
   background-color: #1c3542;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-548-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #1c3542; }
 
 .dye-548-03 {
   background-color: #231b4c;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-548-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #231b4c; }
 
 .dye-548-05 {
   background-color: #504fa1;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-548-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #504fa1; }
 
 .dye-548-07 {
   background-color: #9c85bd;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-548-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #9c85bd; }
 
 .dye-548-08 {
   background-color: #bcaecb;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-548-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bcaecb; }
 
 .dye-506-02 {
   background-color: #162e55;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-506-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #162e55; }
 
 .dye-506-03 {
   background-color: #125a9d;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-506-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #125a9d; }
 
 .dye-506-05 {
   background-color: #1d73bc;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-506-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #1d73bc; }
 
 .dye-506-07 {
   background-color: #3ba2d7;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-506-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #3ba2d7; }
 
 .dye-506-09 {
   background-color: #b9d1ec;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-506-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b9d1ec; }
 
 .dye-505-03 {
   background-color: #1e576d;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-505-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #1e576d; }
 
 .dye-505-05 {
   background-color: #2a84c3;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-505-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2a84c3; }
 
 .dye-505-07 {
   background-color: #2e8ccc;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-505-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2e8ccc; }
 
 .dye-505-08 {
   background-color: #8cb5da;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-505-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #8cb5da; }
 
 .dye-505-09 {
   background-color: #bfccda;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-505-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bfccda; }
 
 .dye-505-10 {
   background-color: #e1f4fc;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-505-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e1f4fc; }
 
 .dye-508-02 {
   background-color: #03203b;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-508-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #03203b; }
 
 .dye-508-03 {
   background-color: #052f59;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-508-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #052f59; }
 
 .dye-508-05 {
   background-color: #0b3d68;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-508-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #0b3d68; }
 
 .dye-508-07 {
   background-color: #20648c;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-508-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #20648c; }
 
 .dye-508-08 {
   background-color: #3899ca;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-508-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #3899ca; }
 
 .dye-570-03 {
   background-color: #005b7f;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-570-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #005b7f; }
 
 .dye-570-05 {
   background-color: #018cc7;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-570-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #018cc7; }
 
 .dye-570-07 {
   background-color: #54b7df;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-570-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #54b7df; }
 
 .dye-570-09 {
   background-color: #acdfef;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-570-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #acdfef; }
 
 .dye-522-02 {
   background-color: #0e5268;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-522-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #0e5268; }
 
 .dye-522-03 {
   background-color: #01656d;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-522-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #01656d; }
 
 .dye-522-05 {
   background-color: #0091a6;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-522-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #0091a6; }
 
 .dye-522-08 {
   background-color: #2caeb0;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-522-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2caeb0; }
 
 .dye-522-10 {
   background-color: #addee4;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-522-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #addee4; }
 
 .dye-640-02 {
   background-color: #083742;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-640-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #083742; }
 
 .dye-640-03 {
   background-color: #005959;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-640-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #005959; }
 
 .dye-640-05 {
   background-color: #00807a;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-640-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #00807a; }
 
 .dye-640-07 {
   background-color: #178B86;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-640-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #178B86; }
 
 .dye-640-09 {
   background-color: #5ac4bd;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-640-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #5ac4bd; }
 
 .dye-627-02 {
   background-color: #073937;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-627-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #073937; }
 
 .dye-627-03 {
   background-color: #145a43;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-627-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #145a43; }
 
 .dye-627-05 {
   background-color: #2c7058;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-627-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2c7058; }
 
 .dye-627-07 {
   background-color: #006c45;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-627-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #006c45; }
 
 .dye-627-08 {
   background-color: #3e9d7b;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-627-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #3e9d7b; }
 
 .dye-627-09 {
   background-color: #67ab80;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-627-09 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #67ab80; }
 
 .dye-627-10 {
   background-color: #b3d1bb;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-627-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b3d1bb; }
 
 .dye-619-03 {
   background-color: #019160;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-619-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #019160; }
 
 .dye-619-05 {
   background-color: #039567;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-619-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #039567; }
 
 .dye-619-07 {
   background-color: #00a372;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-619-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #00a372; }
 
 .dye-619-09 {
   background-color: #aacea4;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-619-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #aacea4; }
 
 .dye-675-03 {
   background-color: #008345;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-675-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #008345; }
 
 .dye-675-05 {
   background-color: #4faa65;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-675-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #4faa65; }
 
 .dye-675-08 {
   background-color: #82c198;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-675-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #82c198; }
 
 .dye-618-03 {
   background-color: #6a7d4e;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-618-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #6a7d4e; }
 
 .dye-618-05 {
   background-color: #73b643;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-618-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #73b643; }
 
 .dye-618-08 {
   background-color: #a0c586;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-618-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #a0c586; }
 
 .dye-618-09 {
   background-color: #b5cfa8;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-618-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b5cfa8; }
 
 .dye-626-03 {
   background-color: #2c5935;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-626-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2c5935; }
 
 .dye-626-05 {
   background-color: #68842c;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-626-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #68842c; }
 
 .dye-626-07 {
   background-color: #839123;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-626-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #839123; }
 
 .dye-626-09 {
   background-color: #bec857;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-626-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bec857; }
 
 .dye-626-10 {
   background-color: #dbdfa8;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-626-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dbdfa8; }
 
 .dye-633-03 {
   background-color: #638a42;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-633-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #638a42; }
 
 .dye-633-05 {
   background-color: #c8d242;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-633-05 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c8d242; }
 
 .dye-633-07 {
   background-color: #d5ce51;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-633-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d5ce51; }
 
 .dye-633-09 {
   background-color: #dcd9a1;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-633-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dcd9a1; }
 
 .dye-620-02 {
   background-color: #273a25;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-620-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #273a25; }
 
 .dye-620-03 {
   background-color: #514c0c;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-620-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #514c0c; }
 
 .dye-620-05 {
   background-color: #626208;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-620-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #626208; }
 
 .dye-620-07 {
   background-color: #a38d45;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-620-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #a38d45; }
 
 .dye-620-08 {
   background-color: #d0c77f;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-620-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d0c77f; }
 
 .dye-620-10 {
   background-color: #cdd2a0;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-620-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #cdd2a0; }
 
 .dye-227-02 {
   background-color: #5c523f;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-227-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #5c523f; }
 
 .dye-227-03 {
   background-color: #9c7b4c;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-227-03 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #9c7b4c; }
 
 .dye-227-05 {
   background-color: #d28646;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-227-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #d28646; }
 
 .dye-227-07 {
   background-color: #eecc98;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-227-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eecc98; }
 
 .dye-227-09 {
   background-color: #eeddbf;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-227-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eeddbf; }
 
 .dye-227-10 {
   background-color: #fffde9;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-227-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffde9; }
 
 .dye-234-02 {
   background-color: #554d34;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-234-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #554d34; }
 
 .dye-234-03 {
   background-color: #9c7b4c;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-234-03 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #9c7b4c; }
 
 .dye-234-05 {
   background-color: #e29c47;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-234-05 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e29c47; }
 
 .dye-234-07 {
   background-color: #d59455;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-234-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #d59455; }
 
 .dye-234-08 {
   background-color: #daa26c;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-234-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #daa26c; }
 
 .dye-234-09 {
   background-color: #ecca9e;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-234-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ecca9e; }
 
 .dye-234-10 {
   background-color: #f0cdaf;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-234-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f0cdaf; }
 
 .dye-231-03 {
   background-color: #a6744f;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-231-03 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #a6744f; }
 
 .dye-231-05 {
   background-color: #cc7b4b;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-231-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #cc7b4b; }
 
 .dye-231-07 {
   background-color: #d89b6c;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-231-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d89b6c; }
 
 .dye-231-08 {
   background-color: #dfa67d;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-231-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dfa67d; }
 
 .dye-231-09 {
   background-color: #efb37f;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-231-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #efb37f; }
 
 .dye-231-10 {
   background-color: #f1c8a8;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-231-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f1c8a8; }
 
 .dye-339-03 {
   background-color: #654d46;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-339-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #654d46; }
 
 .dye-339-05 {
   background-color: #d6785f;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-339-05 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #d6785f; }
 
 .dye-339-07 {
   background-color: #d89c81;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-339-07 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d89c81; }
 
 .dye-339-08 {
   background-color: #d8a6a0;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-339-08 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d8a6a0; }
 
 .dye-339-09 {
   background-color: #e4bfaf;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-339-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e4bfaf; }
 
 .dye-339-10 {
   background-color: #fee8e7;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-339-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fee8e7; }
 
 .dye-408-02 {
   background-color: #24332f;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-408-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #24332f; }
 
 .dye-408-03 {
   background-color: #483517;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-408-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #483517; }
 
 .dye-408-05 {
   background-color: #2c331a;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-408-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2c331a; }
 
 .dye-408-07 {
   background-color: #735b39;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-408-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #735b39; }
 
 .dye-408-09 {
   background-color: #ae9574;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-408-09 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #ae9574; }
 
 .dye-408-10 {
   background-color: #b6a897;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-408-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b6a897; }
 
 .dye-411-03 {
   background-color: #6a3d32;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-411-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #6a3d32; }
 
 .dye-411-05 {
   background-color: #b55140;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-411-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #b55140; }
 
 .dye-411-07 {
   background-color: #c16140;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-411-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #c16140; }
 
 .dye-411-08 {
   background-color: #e78c63;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-411-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #e78c63; }
 
 .dye-411-09 {
   background-color: #f2dbc2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-411-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f2dbc2; }
 
 .dye-411-10 {
   background-color: #f2dbc2;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-411-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f2dbc2; }
 
 .dye-343-03 {
   background-color: #751e12;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-343-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #751e12; }
 
 .dye-343-05 {
   background-color: #862e1b;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-343-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #862e1b; }
 
 .dye-343-07 {
   background-color: #8f5757;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-343-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #8f5757; }
 
 .dye-343-08 {
   background-color: #d6948a;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-343-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #d6948a; }
 
 .dye-343-09 {
   background-color: #e3cecd;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-343-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e3cecd; }
 
 .dye-347-02 {
   background-color: #2e2835;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-347-02 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2e2835; }
 
 .dye-347-03 {
   background-color: #6e2e43;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-347-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #6e2e43; }
 
 .dye-347-05 {
   background-color: #802d40;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-347-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #802d40; }
 
 .dye-347-07 {
   background-color: #815262;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-347-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #815262; }
 
 .dye-347-09 {
   background-color: #bfa4b0;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-347-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bfa4b0; }
 
 .dye-538-03 {
   background-color: #362033;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-538-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #362033; }
 
 .dye-538-05 {
   background-color: #551f22;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-538-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #551f22; }
 
 .dye-538-07 {
   background-color: #825460;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-538-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #825460; }
 
 .dye-538-08 {
   background-color: #94787d;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-538-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #94787d; }
 
 .dye-538-09 {
   background-color: #a38488;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-538-09 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #a38488; }
 
 .dye-538-10 {
   background-color: #bfadb5;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-538-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bfadb5; }
 
 .dye-409-03 {
   background-color: #350908;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-409-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #350908; }
 
 .dye-409-05 {
   background-color: #571719;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-409-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #571719; }
 
 .dye-409-07 {
   background-color: #7a513e;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-409-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #7a513e; }
 
 .dye-409-08 {
   background-color: #a77c70;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-409-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #a77c70; }
 
 .dye-409-09 {
   background-color: #c3a08d;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-409-09 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #c3a08d; }
 
 .dye-409-10 {
   background-color: #d7bcab;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-409-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d7bcab; }
 
 .dye-704-03 {
   background-color: #211d14;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-704-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #211d14; }
 
 .dye-704-05 {
   background-color: #4c4b46;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-704-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #4c4b46; }
 
 .dye-704-07 {
   background-color: #8b8b81;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-704-07 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #8b8b81; }
 
 .dye-704-08 {
   background-color: #a8a89d;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-704-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #a8a89d; }
 
 .dye-704-09 {
   background-color: #d0d2cc;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-704-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d0d2cc; }
 
 .dye-704-10 {
   background-color: #f2f2e9;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-704-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f2f2e9; }
 
 .dye-727-03 {
   background-color: #0a2d40;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-727-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #0a2d40; }
 
 .dye-727-05 {
   background-color: #294a59;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-727-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #294a59; }
 
 .dye-727-07 {
   background-color: #647882;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-727-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #647882; }
 
 .dye-727-08 {
   background-color: #94a2aa;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-727-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #94a2aa; }
 
 .dye-727-09 {
   background-color: #b0c0c9;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-727-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b0c0c9; }
 
 .dye-727-10 {
   background-color: #d8e9f1;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-727-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d8e9f1; }
 
 .dye-707-03 {
   background-color: #3f2c35;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-707-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #3f2c35; }
 
 .dye-707-05 {
   background-color: #4c4147;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-707-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #4c4147; }
 
 .dye-707-07 {
   background-color: #6c696d;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-707-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #6c696d; }
 
 .dye-707-08 {
   background-color: #939598;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-707-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #939598; }
 
 .dye-707-09 {
   background-color: #bcbdc0;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-707-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bcbdc0; }
 
 .dye-707-10 {
   background-color: #dcdddf;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-707-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dcdddf; }
 
 .dye-709-03 {
   background-color: #2f2c11;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-709-03 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #2f2c11; }
 
 .dye-709-05 {
   background-color: #3e3b1c;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-709-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #3e3b1c; }
 
 .dye-709-07 {
   background-color: #4c4a38;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-709-07 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #4c4a38; }
 
 .dye-709-08 {
   background-color: #828f96;
   color: rgba(255, 255, 255, 0.75); }
+  .dye-709-08 .set {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #828f96; }
 
 .dye-709-09 {
   background-color: #b2b3b7;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-709-09 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b2b3b7; }
 
 .dye-709-10 {
   background-color: #c6ced4;
   color: rgba(0, 0, 0, 0.5); }
+  .dye-709-10 .set {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c6ced4; }
 
 .dye-700-05 {
   background-color: #231f20;
   color: rgba(255, 255, 255, 0.6); }
+  .dye-700-05 .set {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #231f20; }

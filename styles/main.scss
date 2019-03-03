@@ -56,6 +56,34 @@ h1 {
 	font-size: 13px;
 	box-shadow: 0 0 0 1px rgba(black,0.05) inset;
 
+	&.in-set {
+		position: relative;
+
+		.set {
+			position: absolute;
+			width: 11px;
+			height: 11px;
+			line-height: 12px;
+			border-radius: 100%;
+			font-size: 7px;
+			right: 5px;
+			cursor: pointer;
+			font-weight: 700;
+		}
+
+		.royaltalens-site {
+			left: 5px;
+		}
+
+		.set-90 {
+			bottom: 5px;
+		}
+
+		.set-60 {
+			top: 5px;
+		}
+	}
+
 	h3 {
 		font-weight: 600;
 	}
@@ -327,6 +355,11 @@ $dye : (
 	.dye-#{$n} {
 		background-color: $c;
 		color: contrasting-color($c);
+
+		.set {
+			background-color: contrasting-color($c);
+			color: $c;
+		}
 	}
 }
 
